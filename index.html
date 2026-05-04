@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free AI Tools Hub 2026 — Best Free AI Tools Reviewed & Ranked</title>
+<meta name="description" content="Discover the best free AI tools of 2026. Expert reviews, honest comparisons and earnings guides for writing, image generation, video, SEO and more. Updated weekly.">
+<meta name="keywords" content="free AI tools 2026, best AI writing tools, free AI image generators, ChatGPT alternatives, AI tools review">
+<meta property="og:title" content="Free AI Tools Hub 2026 — Best Free AI Tools Reviewed">
+<meta property="og:description" content="Expert reviews of the best free AI tools. Save hours of research — we test so you don't have to.">
+<meta property="og:type" content="website">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://yourusername.github.io/freeaitools/">
+
+<!-- Schema.org structured data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Free AI Tools Hub",
+  "description": "Expert reviews of the best free AI tools in 2026",
+  "url": "https://yourusername.github.io/freeaitools/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://yourusername.github.io/freeaitools/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --bg2: #111118;
+    --bg3: #1a1a24;
+    --border: #2a2a3a;
+    --accent: #f5a623;
+    --accent2: #ff6b35;
+    --text: #e8e8f0;
+    --muted: #7a7a9a;
+    --green: #22c55e;
+    --blue: #3b82f6;
+    --card-bg: #13131c;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* NOISE OVERLAY */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1000;
+    opacity: 0.4;
+  }
+
+  /* NAV */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(10,10,15,0.92);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+  }
+
+  .nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    gap: 20px;
+  }
+
+  .logo {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: var(--text);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+  }
+
+  .logo-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--accent);
+    border-radius: 50%;
+    display: inline-block;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(1.3); }
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--text); }
+
+  .nav-search {
+    display: flex;
+    align-items: center;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 12px;
+    gap: 8px;
+    flex: 1;
+    max-width: 260px;
+  }
+
+  .nav-search input {
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--text);
+    font-size: 0.85rem;
+    width: 100%;
+    font-family: inherit;
+  }
+
+  .nav-search input::placeholder { color: var(--muted); }
+
+  .nav-cta {
+    background: var(--accent);
+    color: #0a0a0f !important;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 700 !important;
+    font-size: 0.85rem !important;
+    white-space: nowrap;
+    transition: opacity 0.2s !important;
+  }
+
+  .nav-cta:hover { opacity: 0.85; color: #0a0a0f !important; }
+
+  /* HERO */
+  .hero {
+    padding: 80px 24px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(245,166,35,0.12);
+    border: 1px solid rgba(245,166,35,0.3);
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 100px;
+    margin-bottom: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .hero h1 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    max-width: 780px;
+    margin-bottom: 20px;
+  }
+
+  .hero h1 em {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  .hero-sub {
+    font-size: 1.1rem;
+    color: var(--muted);
+    max-width: 560px;
+    margin-bottom: 36px;
+    font-weight: 300;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+  }
+
+  .btn-primary {
+    background: var(--accent);
+    color: #0a0a0f;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 14px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(245,166,35,0.35);
+  }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--text);
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 14px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--border);
+    transition: border-color 0.2s, background 0.2s;
+    cursor: pointer;
+  }
+
+  .btn-outline:hover { border-color: var(--accent); background: rgba(245,166,35,0.05); }
+
+  .hero-stats {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .stat { }
+
+  .stat-num {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: var(--accent);
+  }
+
+  .stat-label {
+    font-size: 0.8rem;
+    color: var(--muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* GLOW BG */
+  .hero-glow {
+    position: absolute;
+    top: 0;
+    right: -200px;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(ellipse, rgba(245,166,35,0.07) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  /* SEARCH RESULTS */
+  #search-results {
+    display: none;
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    padding: 0 24px;
+  }
+
+  #search-results.active { display: block; }
+
+  .search-result-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .search-results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+
+  /* SECTIONS */
+  section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 24px;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .section-title {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 1.6rem;
+    letter-spacing: -0.02em;
+  }
+
+  .section-sub {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-top: 4px;
+    font-weight: 300;
+  }
+
+  .see-all {
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+    font-family: 'Syne', sans-serif;
+  }
+
+  /* CATEGORIES */
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+  }
+
+  .cat-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 16px;
+    cursor: pointer;
+    transition: border-color 0.2s, transform 0.2s, background 0.2s;
+    text-decoration: none;
+    display: block;
+  }
+
+  .cat-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-3px);
+    background: rgba(245,166,35,0.05);
+  }
+
+  .cat-icon {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .cat-name {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--text);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .cat-count {
+    font-size: 0.78rem;
+    color: var(--muted);
+    font-weight: 400;
+  }
+
+  /* ARTICLE CARDS */
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+  }
+
+  .articles-grid.featured { grid-template-columns: 1fr; }
+
+  .article-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    transition: border-color 0.2s, transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .article-card:hover {
+    border-color: rgba(245,166,35,0.4);
+    transform: translateY(-3px);
+  }
+
+  .article-thumb {
+    height: 180px;
+    background: linear-gradient(135deg, var(--bg3) 0%, var(--bg2) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .article-thumb::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent 50%, rgba(19,19,28,0.8));
+  }
+
+  .article-body {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .article-tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 100px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .tag-amber { background: rgba(245,166,35,0.15); color: var(--accent); }
+  .tag-blue { background: rgba(59,130,246,0.15); color: var(--blue); }
+  .tag-green { background: rgba(34,197,94,0.15); color: var(--green); }
+  .tag-red { background: rgba(239,68,68,0.15); color: #ef4444; }
+
+  .article-title {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+    line-height: 1.3;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+
+  .article-excerpt {
+    font-size: 0.85rem;
+    color: var(--muted);
+    line-height: 1.6;
+    flex: 1;
+    font-weight: 300;
+  }
+
+  .article-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+  }
+
+  .article-searches {
+    font-size: 0.78rem;
+    color: var(--green);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .article-date {
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+
+  .read-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 4px;
+    font-family: 'Syne', sans-serif;
+  }
+
+  /* TOOL COMPARISON TABLE */
+  .tools-section { padding: 60px 24px; }
+
+  .tools-table-wrap {
+    overflow-x: auto;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card-bg);
+  }
+
+  thead tr {
+    background: var(--bg3);
+    border-bottom: 1px solid var(--border);
+  }
+
+  th {
+    padding: 14px 16px;
+    text-align: left;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  td {
+    padding: 14px 16px;
+    font-size: 0.88rem;
+    border-bottom: 1px solid rgba(42,42,58,0.5);
+    vertical-align: middle;
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  tr:hover td { background: rgba(245,166,35,0.03); }
+
+  .tool-name {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--text);
+  }
+
+  .tool-cat {
+    font-size: 0.75rem;
+    color: var(--muted);
+    font-weight: 400;
+    margin-top: 2px;
+  }
+
+  .commission {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    color: var(--green);
+    font-size: 0.9rem;
+  }
+
+  .commission-type {
+    font-size: 0.72rem;
+    color: var(--muted);
+    font-weight: 400;
+    margin-top: 1px;
+  }
+
+  .rating-stars { color: var(--accent); font-size: 0.85rem; }
+
+  .affiliate-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--accent);
+    color: #0a0a0f;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.78rem;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: opacity 0.2s, transform 0.2s;
+  }
+
+  .affiliate-btn:hover { opacity: 0.85; transform: translateY(-1px); }
+
+  .affiliate-btn.outline {
+    background: transparent;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+  }
+
+  .affiliate-btn.outline:hover { background: rgba(245,166,35,0.1); }
+
+  .rank-badge {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 0.85rem;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rank-1 { background: var(--accent); color: #0a0a0f; }
+  .rank-2 { background: var(--muted); color: #0a0a0f; }
+  .rank-3 { background: #cd7f32; color: #fff; }
+  .rank-n { background: var(--bg3); color: var(--muted); }
+
+  /* NEWSLETTER */
+  .newsletter-section {
+    background: linear-gradient(135deg, rgba(245,166,35,0.08) 0%, rgba(255,107,53,0.05) 100%);
+    border: 1px solid rgba(245,166,35,0.2);
+    border-radius: 20px;
+    padding: 60px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto 60px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .newsletter-section::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 300px;
+    background: radial-gradient(ellipse, rgba(245,166,35,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .newsletter-section h2 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+  }
+
+  .newsletter-section p {
+    color: var(--muted);
+    margin-bottom: 32px;
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .newsletter-form {
+    display: flex;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .newsletter-form input {
+    flex: 1;
+    min-width: 240px;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 18px;
+    color: var(--text);
+    font-size: 0.95rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .newsletter-form input:focus { border-color: var(--accent); }
+
+  .newsletter-form input::placeholder { color: var(--muted); }
+
+  .newsletter-disclaimer {
+    margin-top: 14px;
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+
+  #subscribe-success {
+    display: none;
+    color: var(--green);
+    font-weight: 600;
+    margin-top: 16px;
+    font-size: 0.9rem;
+  }
+
+  /* TOP SEARCHES */
+  .top-searches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 32px;
+  }
+
+  .search-pill {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 500;
+  }
+
+  .search-pill:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(245,166,35,0.06);
+  }
+
+  /* TICKER */
+  .ticker {
+    background: var(--bg2);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 0;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .ticker-inner {
+    display: flex;
+    gap: 60px;
+    animation: ticker 30s linear infinite;
+    width: max-content;
+  }
+
+  @keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .ticker-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.82rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  .ticker-item span { color: var(--accent); font-weight: 600; }
+
+  /* FOOTER */
+  footer {
+    background: var(--bg2);
+    border-top: 1px solid var(--border);
+    padding: 60px 24px 32px;
+  }
+
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 48px;
+  }
+
+  .footer-brand p {
+    color: var(--muted);
+    font-size: 0.85rem;
+    line-height: 1.7;
+    margin-top: 12px;
+    max-width: 280px;
+    font-weight: 300;
+  }
+
+  .footer-col h4 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 16px;
+    color: var(--text);
+  }
+
+  .footer-col ul { list-style: none; }
+  .footer-col li { margin-bottom: 10px; }
+
+  .footer-col a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.2s;
+    font-weight: 300;
+  }
+
+  .footer-col a:hover { color: var(--accent); }
+
+  .footer-bottom {
+    border-top: 1px solid var(--border);
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .footer-bottom p {
+    font-size: 0.8rem;
+    color: var(--muted);
+    font-weight: 300;
+  }
+
+  .affiliate-disclosure {
+    font-size: 0.75rem;
+    color: var(--muted);
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 16px;
+    margin-bottom: 24px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  /* MOBILE MENU */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px;
+    background: none;
+    border: none;
+  }
+
+  .hamburger span {
+    width: 22px;
+    height: 2px;
+    background: var(--text);
+    border-radius: 2px;
+    transition: 0.3s;
+  }
+
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 24px;
+    z-index: 99;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .mobile-menu.open { display: flex; }
+
+  .mobile-menu a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* FADE IN ANIMATIONS */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* TRUST BADGES */
+  .trust-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding: 24px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--card-bg);
+    margin-bottom: 60px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.85rem;
+    color: var(--muted);
+    font-weight: 400;
+  }
+
+  .trust-icon { font-size: 1.1rem; }
+
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .nav-links { display: none; }
+    .nav-search { display: none; }
+    .hamburger { display: flex; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .hero-stats { gap: 24px; }
+    .articles-grid { grid-template-columns: 1fr; }
+    .categories-grid { grid-template-columns: repeat(3, 1fr); }
+    .newsletter-section { padding: 40px 24px; margin-left: 16px; margin-right: 16px; }
+    .trust-bar { gap: 20px; margin-left: 16px; margin-right: 16px; }
+  }
+
+  @media (max-width: 480px) {
+    .footer-grid { grid-template-columns: 1fr; }
+    .categories-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  /* Scroll top */
+  #scroll-top {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 44px;
+    height: 44px;
+    background: var(--accent);
+    color: #0a0a0f;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 16px rgba(245,166,35,0.4);
+  }
+
+  #scroll-top:hover { transform: scale(1.1); }
+  #scroll-top.visible { display: flex; }
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      <span class="logo-dot"></span>
+      Free AI Tools Hub
+    </a>
+    <ul class="nav-links">
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#affiliates">Earn Money</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#newsletter" class="nav-cta">Get Free Updates →</a></li>
+    </ul>
+    <div class="nav-search">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="color:var(--muted);flex-shrink:0"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" id="main-search" placeholder="Search tools, reviews..." autocomplete="off">
+    </div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#reviews" onclick="closeMenu()">📝 Reviews</a>
+  <a href="#categories" onclick="closeMenu()">📂 Categories</a>
+  <a href="#affiliates" onclick="closeMenu()">💰 Earn Money</a>
+  <a href="#newsletter" onclick="closeMenu()">📧 Newsletter</a>
+  <a href="#about" onclick="closeMenu()">ℹ️ About</a>
+</div>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-inner" id="ticker">
+    <div class="ticker-item">🔥 ChatGPT Free vs Paid <span>200K searches/mo</span></div>
+    <div class="ticker-item">⚡ Best Free AI Image Generators <span>80K searches/mo</span></div>
+    <div class="ticker-item">✍️ Best Free ChatGPT Alternatives <span>120K searches/mo</span></div>
+    <div class="ticker-item">🎬 Best Free AI Video Tools <span>45K searches/mo</span></div>
+    <div class="ticker-item">🎓 Free AI Tools for Students <span>35K searches/mo</span></div>
+    <div class="ticker-item">💰 Free AI Tools to Make Money Online <span>28K searches/mo</span></div>
+    <div class="ticker-item">✅ Best Free Grammarly Alternatives <span>40K searches/mo</span></div>
+    <div class="ticker-item">🚀 Best Free AI SEO Tools <span>30K searches/mo</span></div>
+    <!-- Duplicate for seamless loop -->
+    <div class="ticker-item">🔥 ChatGPT Free vs Paid <span>200K searches/mo</span></div>
+    <div class="ticker-item">⚡ Best Free AI Image Generators <span>80K searches/mo</span></div>
+    <div class="ticker-item">✍️ Best Free ChatGPT Alternatives <span>120K searches/mo</span></div>
+    <div class="ticker-item">🎬 Best Free AI Video Tools <span>45K searches/mo</span></div>
+    <div class="ticker-item">🎓 Free AI Tools for Students <span>35K searches/mo</span></div>
+    <div class="ticker-item">💰 Free AI Tools to Make Money Online <span>28K searches/mo</span></div>
+    <div class="ticker-item">✅ Best Free Grammarly Alternatives <span>40K searches/mo</span></div>
+    <div class="ticker-item">🚀 Best Free AI SEO Tools <span>30K searches/mo</span></div>
+  </div>
+</div>
+
+<!-- HERO -->
+<div class="hero fade-in">
+  <div class="hero-glow"></div>
+  <div class="hero-badge">✦ Updated Weekly — May 2026</div>
+  <h1>The Best <em>Free AI Tools</em><br>Ranked & Reviewed</h1>
+  <p class="hero-sub">We test hundreds of AI tools so you get the honest truth. No paywalls. No hype. Just the tools that actually work — free.</p>
+  <div class="hero-actions">
+    <a href="#reviews" class="btn-primary">Browse Reviews →</a>
+    <a href="#affiliates" class="btn-outline">💰 Start Earning</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">120+</div><div class="stat-label">Tools Tested</div></div>
+    <div class="stat"><div class="stat-num">12</div><div class="stat-label">Categories</div></div>
+    <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Free Focus</div></div>
+    <div class="stat"><div class="stat-num">2026</div><div class="stat-label">Up To Date</div></div>
+  </div>
+
+  <!-- Popular searches -->
+  <div class="top-searches" style="margin-top:40px;">
+    <span style="font-size:0.8rem;color:var(--muted);font-weight:500;align-self:center;">🔍 Popular:</span>
+    <button class="search-pill" onclick="filterSearch('ChatGPT')">ChatGPT Alternatives</button>
+    <button class="search-pill" onclick="filterSearch('image')">AI Image Generators</button>
+    <button class="search-pill" onclick="filterSearch('writing')">AI Writing Tools</button>
+    <button class="search-pill" onclick="filterSearch('video')">AI Video Tools</button>
+    <button class="search-pill" onclick="filterSearch('free')">100% Free Tools</button>
+    <button class="search-pill" onclick="filterSearch('student')">For Students</button>
+  </div>
+</div>
+
+<!-- SEARCH RESULTS -->
+<div id="search-results">
+  <div style="max-width:1200px;margin:0 auto;padding:0 24px;">
+    <p class="search-result-title" id="search-label">Search results</p>
+    <div class="search-results-grid" id="search-grid"></div>
+    <button onclick="clearSearch()" style="margin-top:20px;background:none;border:1px solid var(--border);color:var(--muted);padding:8px 20px;border-radius:8px;cursor:pointer;font-family:inherit;font-size:0.85rem;">✕ Clear search</button>
+  </div>
+</div>
+
+<!-- TRUST BAR -->
+<div class="trust-bar fade-in">
+  <div class="trust-item"><span class="trust-icon">✅</span> Hands-on tested — no guesswork</div>
+  <div class="trust-item"><span class="trust-icon">🔄</span> Updated every week</div>
+  <div class="trust-item"><span class="trust-icon">💸</span> 100% free tools only</div>
+  <div class="trust-item"><span class="trust-icon">🚫</span> No paid placements</div>
+  <div class="trust-item"><span class="trust-icon">🔗</span> Real affiliate links — we earn if you upgrade</div>
+</div>
+
+<!-- CATEGORIES -->
+<section id="categories" class="fade-in">
+  <div class="section-header">
+    <div>
+      <div class="section-title">Browse by Category</div>
+      <div class="section-sub">Find the right AI tool for your exact need</div>
+    </div>
+  </div>
+  <div class="categories-grid">
+    <a href="#writing" class="cat-card" onclick="filterSearch('writing')">
+      <span class="cat-icon">✍️</span>
+      <span class="cat-name">Writing</span>
+      <span class="cat-count">45 tools</span>
+    </a>
+    <a href="#" class="cat-card" onclick="filterSearch('image')">
+      <span class="cat-icon">🎨</span>
+      <span class="cat-name">Image Gen</span>
+      <span class="cat-count">32 tools</span>
+    </a>
+    <a href="#" class="cat-card" onclick="filterSearch('video')">
+      <span class="cat-icon">🎬</span>
+      <span class="cat-name">Video</span>
+      <span class="cat-count">19 tools</span>
+    </a>
+    <a href="#" class="cat-card" onclick="filterSearch('ChatGPT')">
+      <span class="cat-icon">🤖</span>
+      <span class="cat-name">Chatbots</span>
+      <span class="cat-count">28 tools</span>
+    </a>
+    <a href="#" class="cat-card" onclick="filterSearch('SEO')">
+      <span class="cat-icon">📈</span>
+      <span class="cat-name">SEO Tools</span>
+      <span class="cat-count">24 tools</span>
+    </a>
+    <a href="#" class="cat-card" onclick="filterSearch('productivity')">
+      <span class="cat-icon">⚡</span>
+      <span class="cat-name">Productivity</span>
+      <span class="cat-count">37 tools</span>
+    </a>
+    <a href="#" class="cat-card" onclick="filterSearch('student')">
+      <span class="cat-icon">🎓</span>
+      <span class="cat-name">For Students</span>
+      <span class="cat-count">20 tools</span>
+    </a>
+    <a href="#" class="cat-card" onclick="filterSearch('business')">
+      <span class="cat-icon">💼</span>
+      <span class="cat-name">Business</span>
+      <span class="cat-count">22 tools</span>
+    </a>
+    <a href="#" class="cat-card" onclick="filterSearch('resume')">
+      <span class="cat-icon">📄</span>
+      <span class="cat-name">Resume</span>
+      <span class="cat-count">12 tools</span>
+    </a>
+    <a href="#" class="cat-card" onclick="filterSearch('social media')">
+      <span class="cat-icon">📱</span>
+      <span class="cat-name">Social Media</span>
+      <span class="cat-count">18 tools</span>
+    </a>
+    <a href="#" class="cat-card" onclick="filterSearch('coding')">
+      <span class="cat-icon">💻</span>
+      <span class="cat-name">Coding</span>
+      <span class="cat-count">15 tools</span>
+    </a>
+    <a href="#" class="cat-card" onclick="filterSearch('translation')">
+      <span class="cat-icon">🌍</span>
+      <span class="cat-name">Translation</span>
+      <span class="cat-count">10 tools</span>
+    </a>
+  </div>
+</section>
+
+<!-- FEATURED ARTICLES -->
+<section id="reviews" class="fade-in">
+  <div class="section-header">
+    <div>
+      <div class="section-title">Latest Reviews & Guides</div>
+      <div class="section-sub">Honest, in-depth reviews — updated May 2026</div>
+    </div>
+    <a href="#" class="see-all">View all 20+ →</a>
+  </div>
+
+  <div class="articles-grid" id="articles-container">
+    <!-- Articles injected by JS -->
+  </div>
+</section>
+
+<!-- AFFILIATE TABLE -->
+<section id="affiliates" class="tools-section fade-in">
+  <div class="section-header">
+    <div>
+      <div class="section-title">💰 Top Affiliate Programs — Earn While You Review</div>
+      <div class="section-sub">Sign up free. Earn recurring commissions every month.</div>
+    </div>
+  </div>
+
+  <div class="affiliate-disclosure">
+    ⚠️ <strong>Affiliate Disclosure:</strong> This page contains affiliate links. If you click and sign up, we may earn a commission at no extra cost to you. We only recommend tools we have personally tested and genuinely believe are useful.
+  </div>
+
+  <div class="tools-table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Tool</th>
+          <th>Commission</th>
+          <th>Type</th>
+          <th>Est. Monthly</th>
+          <th>Rating</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="rank-badge rank-1">1</span></td>
+          <td><div class="tool-name">🤖 Jasper AI</div><div class="tool-cat">AI Writing — #1 Earner</div></td>
+          <td><div class="commission">25–30%</div></td>
+          <td><span class="tag tag-green">RECURRING</span></td>
+          <td><strong style="color:var(--green)">$20–100/user</strong></td>
+          <td><span class="rating-stars">★★★★★</span></td>
+          <td><a href="https://www.jasper.ai/affiliates" target="_blank" rel="noopener" class="affiliate-btn">Join Free →</a></td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-2">2</span></td>
+          <td><div class="tool-name">✍️ Writesonic</div><div class="tool-cat">AI Writing & SEO</div></td>
+          <td><div class="commission">30%</div></td>
+          <td><span class="tag tag-green">RECURRING</span></td>
+          <td><strong style="color:var(--green)">$15–50/user</strong></td>
+          <td><span class="rating-stars">★★★★☆</span></td>
+          <td><a href="https://writesonic.com/affiliates" target="_blank" rel="noopener" class="affiliate-btn">Join Free →</a></td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-3">3</span></td>
+          <td><div class="tool-name">📊 Semrush</div><div class="tool-cat">AI SEO Platform</div></td>
+          <td><div class="commission">$200/sale</div></td>
+          <td><span class="tag tag-amber">ONE-TIME</span></td>
+          <td><strong style="color:var(--accent)">$200/signup</strong></td>
+          <td><span class="rating-stars">★★★★★</span></td>
+          <td><a href="https://www.semrush.com/affiliate/" target="_blank" rel="noopener" class="affiliate-btn">Join Free →</a></td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-n">4</span></td>
+          <td><div class="tool-name">📧 GetResponse</div><div class="tool-cat">Email Marketing AI</div></td>
+          <td><div class="commission">40–60%</div></td>
+          <td><span class="tag tag-green">RECURRING</span></td>
+          <td><strong style="color:var(--green)">$40–120/user</strong></td>
+          <td><span class="rating-stars">★★★★☆</span></td>
+          <td><a href="https://www.getresponse.com/affiliates" target="_blank" rel="noopener" class="affiliate-btn">Join Free →</a></td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-n">5</span></td>
+          <td><div class="tool-name">🎨 Canva Pro</div><div class="tool-cat">AI Design Tool</div></td>
+          <td><div class="commission">Up to 20%</div></td>
+          <td><span class="tag tag-amber">ONE-TIME</span></td>
+          <td><strong style="color:var(--accent)">$5–20/sale</strong></td>
+          <td><span class="rating-stars">★★★★★</span></td>
+          <td><a href="https://www.canva.com/affiliates/" target="_blank" rel="noopener" class="affiliate-btn">Join Free →</a></td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-n">6</span></td>
+          <td><div class="tool-name">🏢 HubSpot</div><div class="tool-cat">AI CRM & Marketing</div></td>
+          <td><div class="commission">30%</div></td>
+          <td><span class="tag tag-green">RECURRING</span></td>
+          <td><strong style="color:var(--green)">$100–1,000/mo</strong></td>
+          <td><span class="rating-stars">★★★★★</span></td>
+          <td><a href="https://www.hubspot.com/partners/affiliates" target="_blank" rel="noopener" class="affiliate-btn">Join Free →</a></td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-n">7</span></td>
+          <td><div class="tool-name">🔒 NordVPN</div><div class="tool-cat">VPN / Security</div></td>
+          <td><div class="commission">40%</div></td>
+          <td><span class="tag tag-green">RECURRING</span></td>
+          <td><strong style="color:var(--green)">$15–30/user</strong></td>
+          <td><span class="rating-stars">★★★★☆</span></td>
+          <td><a href="https://affiliate.nordvpn.com/" target="_blank" rel="noopener" class="affiliate-btn">Join Free →</a></td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-n">8</span></td>
+          <td><div class="tool-name">🛍️ Shopify</div><div class="tool-cat">eCommerce Platform</div></td>
+          <td><div class="commission">$150/signup</div></td>
+          <td><span class="tag tag-amber">ONE-TIME</span></td>
+          <td><strong style="color:var(--accent)">$150/signup</strong></td>
+          <td><span class="rating-stars">★★★★★</span></td>
+          <td><a href="https://www.shopify.com/affiliates" target="_blank" rel="noopener" class="affiliate-btn">Join Free →</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div style="margin-top:20px;padding:20px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;">
+    <p style="font-size:0.85rem;color:var(--muted);font-weight:300;">
+      💡 <strong style="color:var(--text)">How to maximize earnings:</strong> Write a review article about each tool above, embed your affiliate link naturally, and target keywords with high search volume. Recurring commissions mean you earn every month from the same reader. Start with Jasper AI — highest paying + recurring.
+    </p>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<div class="newsletter-section fade-in" id="newsletter">
+  <h2>Stay Ahead of Every AI Tool</h2>
+  <p>Get weekly roundups of the newest free AI tools, exclusive comparisons, and money-making tips — direct to your inbox.</p>
+  <div class="newsletter-form">
+    <input type="email" id="email-input" placeholder="Enter your email address" autocomplete="email">
+    <button class="btn-primary" onclick="handleSubscribe()">Subscribe Free →</button>
+  </div>
+  <p class="newsletter-disclaimer">Free forever. No spam. Unsubscribe anytime.</p>
+  <div id="subscribe-success">✅ You're in! Check your inbox to confirm.</div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="fade-in" style="padding-top:20px">
+  <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:40px;">
+    <div class="section-title" style="margin-bottom:16px;">About Free AI Tools Hub</div>
+    <p style="color:var(--muted);font-size:0.9rem;line-height:1.8;max-width:680px;font-weight:300;">
+      We're an independent review site focused exclusively on <strong style="color:var(--text)">free AI tools</strong>. Every tool we review is hands-on tested by our team. We cover writing, image generation, video creation, SEO, productivity, and more — updated every week with the latest releases.
+    </p>
+    <p style="color:var(--muted);font-size:0.9rem;line-height:1.8;max-width:680px;font-weight:300;margin-top:12px;">
+      Some links on this site are affiliate links — if you click and purchase, we earn a small commission at no extra cost to you. This keeps the site running and free for everyone.
+    </p>
+    <div style="display:flex;gap:12px;margin-top:24px;flex-wrap:wrap;">
+      <a href="mailto:hello@freeaitoolshub.com" class="btn-outline" style="font-size:0.85rem;padding:10px 20px;">📧 Contact Us</a>
+      <a href="#newsletter" class="btn-primary" style="font-size:0.85rem;padding:10px 20px;">Subscribe to Updates →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="affiliate-disclosure">
+      📋 <strong>Affiliate Disclosure:</strong> Free AI Tools Hub participates in affiliate programs. When you click our links and make a purchase, we may earn a commission. This helps support our independent reviews and keeps this site free. We never accept payment for positive reviews — our ratings are always honest.
+    </div>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo" style="font-size:1rem;">
+          <span class="logo-dot"></span>Free AI Tools Hub
+        </a>
+        <p>Independent reviews of the best free AI tools in 2026. Tested, ranked, and updated weekly — so you don't have to do the research yourself.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Top Reviews</h4>
+        <ul>
+          <li><a href="#">Best Free Writing AI</a></li>
+          <li><a href="#">Free Image Generators</a></li>
+          <li><a href="#">ChatGPT Alternatives</a></li>
+          <li><a href="#">Free AI for Students</a></li>
+          <li><a href="#">AI Video Tools</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Earn Money</h4>
+        <ul>
+          <li><a href="https://www.jasper.ai/affiliates" target="_blank" rel="noopener">Jasper Affiliate</a></li>
+          <li><a href="https://www.semrush.com/affiliate/" target="_blank" rel="noopener">Semrush Affiliate</a></li>
+          <li><a href="https://www.hubspot.com/partners/affiliates" target="_blank" rel="noopener">HubSpot Affiliate</a></li>
+          <li><a href="https://www.canva.com/affiliates/" target="_blank" rel="noopener">Canva Affiliate</a></li>
+          <li><a href="https://affiliate.nordvpn.com/" target="_blank" rel="noopener">NordVPN Affiliate</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms of Service</a></li>
+          <li><a href="#disclosure">Affiliate Disclosure</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#sitemap">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Free AI Tools Hub. All rights reserved.</p>
+      <p style="font-size:0.75rem;">Built with ❤️ — Honest reviews, always free.</p>
+    </div>
+  </div>
+</footer>
+
+<button id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Scroll to top">↑</button>
+
+<script>
+// =====================
+// ARTICLE DATA
+// =====================
+const articles = [
+  {
+    id: 1,
+    emoji: "✍️",
+    tags: ["amber", "writing"],
+    tagLabels: ["#1 Traffic", "Writing"],
+    title: "Best Free AI Writing Tools 2026 — Tested & Ranked",
+    excerpt: "We tested 23 free AI writing tools for 3 months. Honest results on what actually works, what's worth upgrading, and what to avoid.",
+    searches: "50,000/mo",
+    date: "May 2026",
+    keywords: ["writing", "free", "tools"],
+    affiliate: { label: "Try Jasper Free", url: "https://www.jasper.ai/free-trial" }
+  },
+  {
+    id: 2,
+    emoji: "🤖",
+    tags: ["green", "blue"],
+    tagLabels: ["120K Searches", "Chatbots"],
+    title: "Best Free ChatGPT Alternatives 2026 — 12 Tools Compared",
+    excerpt: "ChatGPT has a free plan, but these alternatives are often better for specific tasks. Full comparison including Claude, Gemini, Grok, and more.",
+    searches: "120,000/mo",
+    date: "May 2026",
+    keywords: ["ChatGPT", "alternatives", "chatbot", "free"],
+    affiliate: null
+  },
+  {
+    id: 3,
+    emoji: "🎨",
+    tags: ["blue", "image"],
+    tagLabels: ["80K Searches", "Image Gen"],
+    title: "Top 10 Free AI Image Generators 2026 — Real Results",
+    excerpt: "We generated 500+ images to find the best free AI image tools. No watermarks, no credit limits, genuinely free — here are the winners.",
+    searches: "80,000/mo",
+    date: "May 2026",
+    keywords: ["image", "generator", "free", "AI"],
+    affiliate: { label: "Try Canva Free", url: "https://www.canva.com/ai-image-generator/" }
+  },
+  {
+    id: 4,
+    emoji: "💰",
+    tags: ["amber"],
+    tagLabels: ["Make Money"],
+    title: "Free AI Tools to Make Money Online 2026 — Complete Guide",
+    excerpt: "The exact free AI tools we use to earn $1,000+/month from content, affiliates, and freelancing — zero upfront cost.",
+    searches: "28,000/mo",
+    date: "May 2026",
+    keywords: ["money", "earn", "free", "online"],
+    affiliate: { label: "Start Earning", url: "#affiliates" }
+  },
+  {
+    id: 5,
+    emoji: "🎓",
+    tags: ["blue"],
+    tagLabels: ["Students"],
+    title: "Free AI Tools for Students 2026 — Study Smarter, Not Harder",
+    excerpt: "NotebookLM, Gamma, QuillBot, and 8 more free AI tools that help students write essays, study faster, and ace exams.",
+    searches: "35,000/mo",
+    date: "Apr 2026",
+    keywords: ["student", "study", "free", "education"],
+    affiliate: null
+  },
+  {
+    id: 6,
+    emoji: "🎬",
+    tags: ["green"],
+    tagLabels: ["45K Searches", "Video"],
+    title: "Best Free AI Video Generators 2026 — No Watermark Options",
+    excerpt: "Free AI video tools have exploded in 2026. We found 7 genuinely free options with no watermarks and no credit limits.",
+    searches: "45,000/mo",
+    date: "Apr 2026",
+    keywords: ["video", "generator", "free", "AI"],
+    affiliate: null
+  },
+  {
+    id: 7,
+    emoji: "🔍",
+    tags: ["amber", "blue"],
+    tagLabels: ["SEO", "30K Searches"],
+    title: "Best Free AI SEO Tools 2026 — Rank on Google Without Paying",
+    excerpt: "You don't need Semrush or Ahrefs to rank on Google. These 9 free AI SEO tools can get you to page 1 without spending a cent.",
+    searches: "30,000/mo",
+    date: "Apr 2026",
+    keywords: ["SEO", "Google", "free", "rank"],
+    affiliate: { label: "Try Semrush Free", url: "https://www.semrush.com/sem/" }
+  },
+  {
+    id: 8,
+    emoji: "📊",
+    tags: ["green"],
+    tagLabels: ["200K Searches", "Hot"],
+    title: "ChatGPT Free vs Paid 2026 — Is Plus Worth $20/Month?",
+    excerpt: "We spent 30 days testing both plans. The free plan is now surprisingly powerful — but here's exactly when upgrading is worth it.",
+    searches: "200,000/mo",
+    date: "May 2026",
+    keywords: ["ChatGPT", "free", "paid", "comparison"],
+    affiliate: null
+  },
+  {
+    id: 9,
+    emoji: "📝",
+    tags: ["blue"],
+    tagLabels: ["40K Searches"],
+    title: "Best Free Grammarly Alternatives 2026 — 8 Tools That Beat It",
+    excerpt: "Grammarly's free plan is frustrating. We found 8 completely free alternatives that are actually better for most writers.",
+    searches: "40,000/mo",
+    date: "Apr 2026",
+    keywords: ["Grammarly", "writing", "free", "grammar"],
+    affiliate: { label: "Try Writesonic", url: "https://writesonic.com" }
+  },
+  {
+    id: 10,
+    emoji: "📄",
+    tags: ["amber"],
+    tagLabels: ["Resume", "38K Searches"],
+    title: "Best Free AI Resume Builders 2026 — Land the Interview",
+    excerpt: "Job hunting in 2026 means competing with AI-optimized resumes. Use these 6 free AI resume builders to stand out.",
+    searches: "38,000/mo",
+    date: "Apr 2026",
+    keywords: ["resume", "job", "free", "AI", "career"],
+    affiliate: null
+  },
+  {
+    id: 11,
+    emoji: "💼",
+    tags: ["blue", "green"],
+    tagLabels: ["Business", "22K Searches"],
+    title: "Free AI Tools for Small Business 2026 — Run Your Business with $0",
+    excerpt: "Marketing, customer service, content creation, analytics — all covered by free AI tools. A complete small business toolkit.",
+    searches: "22,000/mo",
+    date: "Apr 2026",
+    keywords: ["business", "small", "free", "tools"],
+    affiliate: { label: "Try HubSpot Free", url: "https://www.hubspot.com/products/crm" }
+  },
+  {
+    id: 12,
+    emoji: "📱",
+    tags: ["amber"],
+    tagLabels: ["Social Media"],
+    title: "Free AI Tools for Social Media 2026 — Grow Every Platform",
+    excerpt: "Create, schedule, and grow on Instagram, TikTok, Twitter, and LinkedIn using only free AI tools. Full step-by-step guide.",
+    searches: "20,000/mo",
+    date: "Mar 2026",
+    keywords: ["social media", "Instagram", "TikTok", "free"],
+    affiliate: { label: "Try Canva Free", url: "https://www.canva.com" }
+  },
+];
+
+// =====================
+// RENDER ARTICLES
+// =====================
+function renderArticles(data) {
+  const container = document.getElementById('articles-container');
+  container.innerHTML = data.map(a => {
+    const tagColors = { amber: 'tag-amber', blue: 'tag-blue', green: 'tag-green', red: 'tag-red', image: 'tag-blue', writing: 'tag-amber' };
+    const tagsHTML = a.tags.map((t, i) => `<span class="tag ${tagColors[t] || 'tag-blue'}">${a.tagLabels[i]}</span>`).join('');
+    const affHTML = a.affiliate
+      ? `<a href="${a.affiliate.url}" target="_blank" rel="noopener" class="affiliate-btn outline" style="font-size:0.78rem;padding:7px 12px;" onclick="event.stopPropagation()">${a.affiliate.label} ↗</a>`
+      : '';
+    return `
+      <div class="article-card" onclick="openArticle(${a.id})">
+        <div class="article-thumb" style="font-size:2.5rem">${a.emoji}</div>
+        <div class="article-body">
+          <div class="article-tags">${tagsHTML}</div>
+          <div class="article-title">${a.title}</div>
+          <div class="article-excerpt">${a.excerpt}</div>
+          <div class="article-meta">
+            <span class="article-searches">📈 ${a.searches}</span>
+            <span class="article-date">${a.date}</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-top:4px;">
+            <span class="read-link">Read Review →</span>
+            ${affHTML}
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+renderArticles(articles);
+
+// =====================
+// SEARCH FUNCTIONALITY
+// =====================
+function filterSearch(query) {
+  const q = query.toLowerCase();
+  document.getElementById('main-search').value = query;
+  const filtered = articles.filter(a =>
+    a.title.toLowerCase().includes(q) ||
+    a.excerpt.toLowerCase().includes(q) ||
+    a.keywords.some(k => k.toLowerCase().includes(q))
+  );
+  showSearchResults(filtered, query);
+  document.getElementById('reviews').scrollIntoView({ behavior: 'smooth' });
+}
+
+function showSearchResults(results, query) {
+  const container = document.getElementById('search-results');
+  const grid = document.getElementById('search-grid');
+  const label = document.getElementById('search-label');
+  label.textContent = `${results.length} result${results.length !== 1 ? 's' : ''} for "${query}"`;
+  if (results.length === 0) {
+    grid.innerHTML = `<p style="color:var(--muted);padding:20px 0;">No results found. Try "writing", "video", or "ChatGPT".</p>`;
+  } else {
+    grid.innerHTML = results.slice(0, 6).map(a => `
+      <div class="article-card" onclick="openArticle(${a.id})" style="cursor:pointer">
+        <div class="article-body">
+          <div class="article-tags"><span class="tag tag-amber">${a.searches}</span></div>
+          <div class="article-title">${a.title}</div>
+          <div class="article-excerpt" style="font-size:0.8rem">${a.excerpt.slice(0, 100)}...</div>
+          <span class="read-link" style="margin-top:8px">Read →</span>
+        </div>
+      </div>`).join('');
+  }
+  container.classList.add('active');
+  renderArticles(results.length > 0 ? results : articles);
+}
+
+function clearSearch() {
+  document.getElementById('main-search').value = '';
+  document.getElementById('search-results').classList.remove('active');
+  renderArticles(articles);
+}
+
+document.getElementById('main-search').addEventListener('input', function() {
+  const q = this.value.trim();
+  if (q.length < 2) { clearSearch(); return; }
+  filterSearch(q);
+});
+
+// =====================
+// ARTICLE CLICK (opens article page or shows modal)
+// =====================
+function openArticle(id) {
+  const a = articles.find(x => x.id === id);
+  if (!a) return;
+  // Open in same tab with placeholder — replace with real article URLs when you have them
+  // For now shows a quick modal preview
+  showArticleModal(a);
+}
+
+function showArticleModal(a) {
+  let modal = document.getElementById('article-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'article-modal';
+    modal.style.cssText = `position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px;`;
+    modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+    document.body.appendChild(modal);
+  }
+  const affHTML = a.affiliate
+    ? `<a href="${a.affiliate.url}" target="_blank" rel="noopener" class="btn-primary" style="margin-top:8px">${a.affiliate.label} ↗</a>`
+    : '';
+  modal.innerHTML = `
+    <div style="background:var(--bg2);border:1px solid var(--border);border-radius:16px;max-width:600px;width:100%;padding:32px;position:relative;max-height:90vh;overflow-y:auto;">
+      <button onclick="document.getElementById('article-modal').remove()" style="position:absolute;top:16px;right:16px;background:var(--bg3);border:1px solid var(--border);color:var(--muted);width:32px;height:32px;border-radius:50%;cursor:pointer;font-size:1rem;display:flex;align-items:center;justify-content:center;">✕</button>
+      <div style="font-size:2.5rem;margin-bottom:16px">${a.emoji}</div>
+      <div class="article-tags" style="margin-bottom:12px">${a.tags.map((t,i)=>`<span class="tag tag-${t==='amber'?'amber':t==='green'?'green':'blue'}">${a.tagLabels[i]}</span>`).join('')}</div>
+      <h2 style="font-family:Syne,sans-serif;font-weight:800;font-size:1.3rem;line-height:1.3;margin-bottom:14px;letter-spacing:-0.01em">${a.title}</h2>
+      <p style="color:var(--muted);font-size:0.9rem;line-height:1.7;margin-bottom:20px;font-weight:300">${a.excerpt}</p>
+      <div style="background:var(--bg3);border-radius:10px;padding:16px;margin-bottom:20px;">
+        <p style="font-size:0.82rem;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px">📈 Monthly Search Volume</p>
+        <p style="font-family:Syne,sans-serif;font-size:1.4rem;font-weight:800;color:var(--green)">${a.searches}</p>
+      </div>
+      <p style="font-size:0.82rem;color:var(--muted);margin-bottom:16px;font-weight:300">📝 Full article coming soon — subscribe below to get it first, or click an affiliate link to explore the tool now.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a href="#newsletter" onclick="document.getElementById('article-modal').remove()" class="btn-outline" style="font-size:0.85rem;padding:10px 18px;">📧 Notify Me</a>
+        ${affHTML}
+      </div>
+    </div>`;
+}
+
+// =====================
+// NEWSLETTER
+// =====================
+function handleSubscribe() {
+  const email = document.getElementById('email-input').value.trim();
+  if (!email || !email.includes('@')) {
+    document.getElementById('email-input').style.borderColor = '#ef4444';
+    setTimeout(() => document.getElementById('email-input').style.borderColor = '', 2000);
+    return;
+  }
+  // In production, replace this with your Mailchimp/ConvertKit endpoint
+  // For now, opens Mailchimp signup or mailto
+  const mailchimpUrl = `https://gmail.com?to=hello@freeaitoolshub.com&subject=Subscribe&body=Please subscribe me: ${encodeURIComponent(email)}`;
+  window.open(`mailto:hello@freeaitoolshub.com?subject=Newsletter Subscribe&body=Please add ${email} to the newsletter`, '_blank');
+  document.getElementById('email-input').value = '';
+  document.getElementById('subscribe-success').style.display = 'block';
+}
+
+// =====================
+// MOBILE MENU
+// =====================
+function toggleMenu() {
+  document.getElementById('mobile-menu').classList.toggle('open');
+}
+
+function closeMenu() {
+  document.getElementById('mobile-menu').classList.remove('open');
+}
+
+// =====================
+// SCROLL TO TOP
+// =====================
+window.addEventListener('scroll', () => {
+  const btn = document.getElementById('scroll-top');
+  if (window.scrollY > 400) btn.classList.add('visible');
+  else btn.classList.remove('visible');
+});
+
+// =====================
+// FADE IN ANIMATIONS
+// =====================
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      observer.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.08 });
+
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+// Initial hero
+setTimeout(() => document.querySelector('.hero').classList.add('visible'), 100);
+</script>
+</body>
+</html>
